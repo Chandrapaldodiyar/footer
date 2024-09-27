@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-Nav</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <footer>
+        <div class="logo">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAm5JREFUSEvFlTtoFFEUhr+zeajozsxO1kehlYKgiSIISogIFr6QgFoIYkBIOu1ESBWFFEEIVloZsVCwUIiIGBvTJaAWQkwhBFNoIWr2ziMxKjp7zOQhG7M7mRXFW93h/vf/7jlzz7nCPx7yj/35f4AGDdoUrgL5ZaKcAOkxYsXaJaNsBDmdahKil0BN2hQq0uKJNfS7vizA1eAFsHsG0G3E7kqCuOr3glwAXhusRkSiUv0SgKthB+gNYNxgbUPkWxJgo+qqacJxYAPIRSNWb0VAVsN8HToGOApHPbEH0qTIVf8kyH1gOkPtlglZ/X5h36IIXA1uAWdB+404J9KYL2hcDR4DR4C7RuzTSwCuhs2gQ6BfINpqpOFddYDCJqF2TGFF6Q//FYGrwSiwvRrTylp9ZcTZEa+XAPwRkKa/A5ARI9bORQBb/c01yDOgQeGhh3UckWIqoGomR9gv0AoUInRPIM6bRYD4w1FvV4bMMLAS9KYRpyMNwFW/D6Qd+FykuM+XXFyks6NMHQSHZ4rs0XwVdxmxu5MLLbgMXAIiQQ8WxBlMLLR4MafBGYHb8VyhzRP7TjmIq2E7aF+SrmI3zanfKUhPfDLgmBH7SSkkr2FrEe0HMop2euJcKXeIxHad0+CawDngq8D+gtjP5yIMWwR9CtQrXPfEPl8pjcnvgarkCB/M3w4/g+yNjYpo3AyzIPcM2VOI6J8BZpOr9S6TA6AHgLfxqecb26AhewiRH0mXINWLltdP2SJ1wzMNrXHOTEczfG+ekLWTy13jVIDYZJ1OrY+IhoqgddS0fJQ1H5YzL1sHaTZVo0kdQTWmpdqfYX3TGdChtV4AAAAASUVORK5CYII="/>
+            <h2>FANDOM</h2>
+        </div>
+        <div class="link-box">
+            <div class="links">
+                <h3>Explore Properties</h3>
+                <h4>Fandom</h4>
+                <h4>Gamepedia</h4>
+                <h4>D&D Beyond</h4>
+                <h4>Cotex RPG</h4>
+                <h4>Muthead</h4>
+                <h4>Futhead</h4>
+                <br>
+                <h3>Follow Us</h3>
+                <div class="icons">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASxJREFUSEvtlKFOA0EQhr9pQgiaYngEcAgEBsMDkBD6BhCQJN1bg0GQ3O2twEGCxV0NwSIQWHgASJoqSIBX6A25owIIXJeWSyp6asW/33c7sztCzZ/UzGeyBNbaZfL8GJFVVJsCT4hcxM4d/laJ4BNEUbQoql1g9gtMtZN4vz2+wJhTgb3vIIXMpWlrbIE15g5YGYBuur3eRpZl/WGXJLhE1pgXYKEAish+7NzZMHiZDQkVGWvMGzBf5lV3E+/PQ/ZWCmy73ZJGY+mDqREwN4Beich9uc7z29j765F6YI3pAFtVf6qqB877k9oEqG4m3l+OKjgSWC9LBGvATAkSeRDV52LZh500TR9HEnzeZI15BZr/2uSp4K8PbdqD6slS+zUNGWw/ZYKn6cQK3gFRTIwZjuAQSAAAAABJRU5ErkJggg=="/>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAi1JREFUSEvdlU9oE0EUxr83CZiY4EkPgmIsiAgqIp70qAiK4B9MUQoe9CAive1OUrE4J9uZ2UI9VLxIEXrx0oMg9NCLSC9FQdGDJ4sFURAvTZamSZsn25DaJptNE8ilc9t5874f39vZbwk9XtRjfewwgOM4Kc/z/KixqcHBPcvJ5BMAV8B8GECFmSd2p9OPKktL+yvx+FVjzAQADnQ2RpTNZmN9mcxXCNGvtf7SCpJz3VkA50PqiwAOEnB71NrX9foGIJ/PZ3htbQHAHwFcH7F2rlHEdd3TAvgY4fADA+8YmLLWftriQCmVWPb9AoD4ugDRy1i5PPx0fPxXXVBKOUDMUxEAn4keGmNeNTkINnKOMweis5sFCHjPwBtUq/NMdIqInrUEME9qz7vb0F97VEqlS4XCURZiBsDebr4PZrbG82QoQEp5gJh/APgLYF9XgNp4nrdyIEq+/52BQ92IBz2iWj02Mjb2LRQQbEopbxBzcMVqL7qztaCt7WtsaYqKnOP0g+gxgBOd6BPRg1FjXrQFDLnu5SrwthNxAIvJVOqIUqrcFrB+XV03uMd3tglZZaJzxpj5sPOhaaqUEsVi8XhMiCEw34oAMRPdM8ZMtjrTBAgCj4jOCKIcmC9FiJeYaMAYMx3l9H8WOc4FBjwQndwcgmHNDMyQEPe11kHARa4tDoIoLiUSNxm4BuAigF0AVgj4zcw/QTQLIaa11p/bCdfrO+yPtl3bnZzr+Yj+AUjZuhkSuNrSAAAAAElFTkSuQmCC"/>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbZJREFUSEvtlTFLHFEUhc/ZHUTRhKBCECIWESRFCm0s7WwCKfIHUgQsTApxZ2bFasUU++YSC8FKEP+CfyFdDCSYRpPCQsQiCiKuGgjzrjxxJ86GnRkwFgFf95hz7vc4916GuOPDO66Pe0BuwqmI5mdmBuKOjkWqDivwBMDT3AqAAtgmcGiB7yAXoig6aPoSQBiGI1T9DOBBgaJZkhOWy2P1en3XiRLAnO+vK/n6lsWb9jUj8iYFqIbhF6iO/iPAphEZTwOC4AhAXxuAwtoXIJdBDhd4xJ4RGWoFxABKbczWiJRrtZp33mi8I7AIsicDdGxEehOA7/vdZbKRYVAjksArlUq/Vyq9BzB1s483/KdG5GECcC+7ODv7nQGIjYjX/F4A8MuIdLVG5Oa53bkCXEc0TXIBwKMM/U8j8rgV4CLqbmOKlXxFaz8UbPKOEXmWAoRBsEdgsMCE5EvIjyaKJtKLFgQbCrzMdxdQkKsmitwA/NnkarX6HNZ+AnDVnNscxvFYfWnpawrgLnOzs6PqeW8J7Lu7VZ0k4La78y+gquvZN5LJ9Cn5A+SKMWarqb//4eS26v+P6BLqQIwZ8d1dXAAAAABJRU5ErkJggg=="/>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAvxJREFUSEvFVU1IVFEU/s67WpmUG2lVGVRQIVFhRES1KAmCkDKyrDZt+lkEje++GYxggn7eveelUZsWtYiwH/qlIIjaSRChhNAvQyFBm1oViqIz79TTmRjHGZNAfMt7v3O+833nvHMJU/zRFOfH9BBorRcrkZgQbQRQC5QsRAC8JZHODNFFZk4VOjJOQcLzjojIJQBlBHwNgVcO0cdiVorIGgFWEbAAwDABx3zmq/nYMQSe59WRyCsA70NgJzN/nkyPWl23NkP0GMBCymTW+m1tb3JxYwjiWj8AsJ2UWub7fu+/knued5BETgP4SZnMIVGqCyKPTBA0FiVIaN0rRO+NtdvzkyeTSWdgYKCewnBFKJKB43yw1r5IaF0vwDMAXw1zTVzrLgKqfeZFpRT8EqDDMh/NAU7GYguGlbpDwPoCbzspDK+FwHdRap619nrWgW2GubIUQSgigQ0CLwKMVN7f/xLAIiFywzB8PiOdVpny8noAFiIpEwSbAETThLjn3YHIbsOsShEIiZz3g6B1JMB194Aoqn6Pz3w3X0FC6yYBbgtRg7U2anBEcAsiTYbZKUkQVWaY4xHAc11LRLqisnJOMpnsyydoaWmpLnOcH3/G+YxhPjVCoHUHgGbD/Hd4CqdIQHTRWHsiG2AinorBwark5cu/ShCcM8wns/gbAA5MTAC0G+ZYFJDQulGAewTs9pnv5xPEXbcZRB1jLBpVsHfCHuQr+NtkohoBdNRkx3HKSGQrgMiHTz7z5oImNxjmWaV60Jcd08M5gOd58yFym4ANhWOq0ul9Z9vbv+XOs2O6xTBXFSdw3RQcJ1XsRxvs62sQYAeIhoToqbX2Sa7yPIJuiMw1QbC0lILIw12k1PLJrIp8Ra7rrlREPQBuGub9xVdFLLZalOoG0ENKNfq+/+Vf+yi6zyZ/CKCGwnCdf+FClGPkm2hdOwK8doChCChAmojeichMAEsIKMuezwZQh9H74761Vwp6Nb7G/3xw2oqt9+l5Mifj+2QxU67gN1QDbyic1YZSAAAAAElFTkSuQmCC"/>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAY9JREFUSEvtlbtKA0EUhv+zSwJWio2V4AVMIQpi5QUsfAzxBQSLDZndpLLMzp4kiGCTWvIYYiGCYi0SxEsqKyWNFppZnbgbNhsJ6EYbXRg4wzD/d85/ZmcIP/zRD+ujB5DP56cAKNd1bwcB7wI4QuwB2NbCPlD2mHNJIR2AbdsZ8v3LqOCrUhPlcvkuCaQvgExzMqlVXRbZudw+EW21MybalZ5nJcm+LRMXKGSzM346rZt8lVS8B+A4zjK1Wulg4blYKp3qOJ/NLsAwhnWsDOPJ87wzy7JGU6nUKpSaIyKTTLP2WVLxU3QPYCzI/FoyT+vYFuKYgJXAujqU2gFRLeaAAlCQzF608q8DgAcAQ8HocZF8f90tlQ7Dhe8Awr0a1AAwD8CIkGqSeSMp4EAyb2oRIcSaARxFABeSeTYRwGi1MsVKpR6K2EI0CBgP5k3JPJII8NhspqvV6kso4ghxDmAxnEvmjvX9enAjmfXF132K3rsrmbXnfqSCEwKW/gEfP9rftmgQt2dc4/cf/UFX8QY2CugZs3ZPfAAAAABJRU5ErkJggg=="/>
+                </div>
+            </div>
+            <div class="links">
+                <h3>Overview</h3>
+                <h4>About</h4>
+                <h4>Careers</h4>
+                <h4>Press</h4>
+                <h4>Contact</h4>
+                <h4>Terms of Use</h4>
+                <h4>Privacy Policy</h4>
+                <h4>Global Sitemap</h4>
+                <h4>Local Sitemap</h4>
+            </div>
+            <div class="links">
+                <h3>Community</h3>
+                <h4>Community Central</h4>
+                <h4>Support</h4>
+                <h4>Help</h4>
+                <h4>Do Not Sell My Info</h4>
+                <br><br>
+                <h3>Advertise</h3>
+                <h4>Media Kit</h4>
+                <h4>Contact</h4>
+            </div>
+            <div class="links">
+                <h3>Fandom Apps</h3>
+                <p>Take your favorite fandom with <br>you and never miss a beat.</p>
+                <div class="img">
+                   <div class="img-prime">
+                    <img src="fandom.png" alt="">
+                   </div>
+                   <div class="img-second">
+                    <img src="app store.png" alt="">
+                   </div>
+                </div>
+                <div class="hr"></div>
+                <div class="img">
+                    <div class="img-prime">
+                        <img src="beyond.png" alt="">
+                    </div>
+                    <div class="img-second">
+                        <img src="app store.png" alt="">
+                    </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
